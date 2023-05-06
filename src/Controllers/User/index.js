@@ -1,7 +1,7 @@
-import User from "../../Models/User/index.js";
 import bcrypt from "bcrypt";
 import SendCookie from "../../Helpers/SendCookie.js";
 import ErrorHandler from "../../Middlewares/Error.js";
+import User from "../../Models/User/index.js";
 
 export const login = async (req, res, next) => {
     try {
